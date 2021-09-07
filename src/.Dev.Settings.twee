@@ -1,0 +1,13 @@
+:: StoryData
+    {
+        "ifid": "D56A0595-E867-4566-8F20-6CE8C6492E58",
+        "format": "SugarCube",
+        "format-version": "2.33.1",
+        "start": "Start"
+    }
+
+:: StoryTitle
+    太平湖下
+
+:: StoryDisplayTitle
+    <div style="text-align:middle;font-size:18px">太平湖下</div>
