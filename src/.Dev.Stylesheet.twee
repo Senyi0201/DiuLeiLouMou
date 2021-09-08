@@ -4,9 +4,9 @@
 *********************************************************************/
 
 body {
-	font-family:"微软雅黑", Times, serif;
-	color: #d8d8d8;
-	background-color: #202020;
+	font-family:"思源黑体", Times, serif;
+	/* color: #d8d8d8; */
+	/* background-color: #202020; */
 	padding:1.5em;
 }
 
