@@ -1,0 +1,14 @@
+:: ChooseLabel
+请选择你的标签
+<<button "分配属性点">>
+    <<goto "Skill">>
+<</button>>
+
+:: Skill
+请调整你的属性
+<<button "开始新人生">>
+    <<goto "Story">>
+<</button>>
+
+:: Story
+阿巴阿巴

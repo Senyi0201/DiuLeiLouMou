@@ -2,12 +2,12 @@
     {
         "ifid": "D56A0595-E867-4566-8F20-6CE8C6492E58",
         "format": "SugarCube",
-        "format-version": "2.33.1",
+        "format-version": "2.35.0",
         "start": "Start"
     }
 
 :: StoryTitle
-    人生重来
+    人生循环
 
 :: StoryDisplayTitle
-    <div style="text-align:middle;font-size:18px">人生重来</div>
+    <div style="text-align:middle;font-size:18px">人生云鬟</div>
