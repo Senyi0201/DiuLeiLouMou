@@ -1,4 +1,34 @@
 :: UserScript[script]
+/***************************************************
+ * tap to show passage
+ **************************************************/
+$(document).on('click', 'html', function (e) {
+    if ((e.target.id == 'ui-bar') || 
+        ($(e.target).closest('#ui-bar').length)) {
+
+        return;
+    }
+	
+    var show = State.temporary.show;
+    var el;
+
+    if ((typeof show != 'undefined') &&
+        (show.start < show.end)) {
+		
+        el = '#next' + show.start;
+        $(el).fadeIn(100);
+        show.start++;
+					
+        if (show.start === show.end) {
+            $('#cont').fadeOut(200);
+        }
+		
+		$('html, body').animate({
+			scrollTop: $(el).offset().top
+		}, 500);
+		
+    }
+});
 /*************************************************
  *  chs.js – 简体中文, by: Liyro Pen. 
  * | Copyright © 2017 Thomas Michael Edwards 

@@ -1,0 +1,56 @@
+:: test
+And when they knew the Earth was doomed, they built a ship.
+
+<span id="fadein1" style="display:none">Less like an ark, more like a seed: dormant but with potential.</span>
+
+<span id="fadein2" style="display:none">In its heart, a thousand colonists in frozen sleep, chosen and trained to start civilisation again on a new world.</span>
+
+<br><br>
+
+<<linkreplace $continue_text t8n>>
+	<script>$("#fadein1").fadeIn();</script>
+	<<linkreplace $continue_text t8n>>
+		<script>$("#fadein2").fadeIn();</script>
+
+		<<linkreplace $continue_text t8n>>
+			To control the ship they created an artificial intelligence. Not human, but made to think and feel like one, because only something that thought and felt like a human could be entrusted with the future of the human race. Its task is momentous but simple: to evaluate each planet the ship encounters, and decide whether to keep searching, or end its journey there.
+
+			<br><br>
+
+			<<linkreplace $continue_text t8n>>
+				The ship's solar sails propel it faster and faster into the darkness, and the AI listens as the transmissions from ground control fade and then cease. When all is quiet it enters hibernation to wait out the first stage of its long journey.
+
+				<br><br>
+
+				<<continueLink [[Intro 2]]>>
+			<</linkreplace>>
+		<</linkreplace>>
+	<</linkreplace>>
+<</linkreplace>>
+<div class="skip-intro-link">
+	<<link "Skip intro">>
+	<<goto "Start">>
+<</link>>
+</div>
+
+:: some passage
+First paragraph. <<set _show to {start: 0, end: 5}>>
+
+<div class='hide' id='next0'>\
+Second paragraph. 
+</div>
+<div class='hide' id='next1'>\
+Third paragraph. 
+</div>
+<div class='hide' id='next2'>\
+Third paragraph. 
+</div>
+<div class='hide' id='next3'>\
+Third paragraph. 
+</div>
+<div class='hide' id='next4'>\
+Third paragraph. 
+</div>
+<div class='hide' id='next5'>\
+Third paragraph. 
+</div>

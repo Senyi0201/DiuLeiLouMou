@@ -21,6 +21,11 @@ br {
 	margin:10px auto;
 }
 
+span.continue-block {
+  display: none;
+}
+
+.hide { display: none; }
 
 
 /*****************************************************

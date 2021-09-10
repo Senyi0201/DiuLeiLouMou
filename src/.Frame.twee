@@ -1,14 +1,28 @@
 :: ChooseLabel
 请选择你的标签
+
+<div style ="
+    text-align:center; 
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    height: 400px;
+    margin-left: 30%;
+    margin-right: 30%;
+    ">
 <<button "分配属性点">>
     <<goto "Skill">>
 <</button>>
+</div>
 
 :: Skill
 请调整你的属性
+
+<div style ="vertical-align: bottom;">
 <<button "开始新人生">>
     <<goto "Story">>
 <</button>>
+</div>
 
 :: Story
 阿巴阿巴

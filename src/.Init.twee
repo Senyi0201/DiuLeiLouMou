@@ -12,7 +12,8 @@
         <<button "开始">>
             <<goto "ChooseLabel">>
         <</button>>
+        [[测试|test]]
+        [[some passage]]
 
     </div>
-
 :: StoryInit
