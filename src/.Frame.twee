@@ -25,4 +25,23 @@
 </div>
 
 :: Story
-阿巴阿巴
+First paragraph. <<set _show to {start: 0, end: 5}>>
+
+<div class='hide' id='next0'>\
+Second paragraph. 
+</div>
+<div class='hide' id='next1'>\
+Third paragraph. 
+</div>
+<div class='hide' id='next2'>\
+Third paragraph. 
+</div>
+<div class='hide' id='next3'>\
+Third paragraph. 
+</div>
+<div class='hide' id='next4'>\
+Third paragraph. 
+</div>
+<div class='hide' id='next5'>\
+Third paragraph. 
+</div>
