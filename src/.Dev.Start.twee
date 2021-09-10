@@ -1,17 +1,18 @@
 :: Start
-    <div style ="
+<div style ="
     text-align:center; 
     display: flex; 
     justify-content: center; 
     flex-direction: column; 
     height: 400px;
-    margin-left: 30%
-    margin-right: 30%
-    ">
+    margin-left: 30%;
+    margin-right: 30%;
+">
 
         <<button "开始">>
             <<goto "ChooseLabel">>
         <</button>>
-
     </div>
+
+
 :: StoryInit
